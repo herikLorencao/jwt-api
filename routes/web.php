@@ -30,4 +30,4 @@ $router->group(['middleware' => 'auth'], function () use ($router) {
     });
 });
 
-$router->post('/auth', 'AuthController@buildToken');
+$router->post('/auth', 'AuthController@buildToken'); // なに!?
